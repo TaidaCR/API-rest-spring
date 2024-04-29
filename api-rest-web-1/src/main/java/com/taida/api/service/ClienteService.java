@@ -10,7 +10,7 @@ public interface ClienteService {
 	//metodo para buscar un registro por id
 	public Cliente buscarPorId(Long id);
 	//metodo para registro
-	public Cliente guardas(Cliente cliente);
+	public Cliente guardar(Cliente cliente);
 	//metodo para eliminar
-	public void delete(Long id);
+	public Cliente delete(Long id);
 }
